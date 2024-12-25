@@ -1,12 +1,10 @@
 
-.holder{
-	display:flex;
-	flex-wrap:row;
-	flex-direction: row;
-	justify-content:center;
-	flex-wrap:nowrap;
-	
+.holder {
+  display: flex;            /* Enable flexbox layout */
+  justify-content: center;  /* Align items in the center horizontally */
+  flex-wrap: wrap;          /* Allow items to wrap onto the next line */
 }
+
 .item{
 	width:100px;
 	height:100px;
