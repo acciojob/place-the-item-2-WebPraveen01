@@ -4,6 +4,7 @@
 	flex-wrap:row;
 	flex-direction: row;
 	justify-content:center;
+	flex-wrap:nowrap;
 	
 }
 .item{
@@ -11,4 +12,5 @@
 	height:100px;
 	background-color:grey;
 	border:1px solid black;
+	text-align:center;
 }
